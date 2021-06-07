@@ -14,7 +14,7 @@ Please cite the corresponding paper when using this filter for publications:
 
 ![Header](/Resources/header.png)
 
-# Affinity Cluster Registration
+# Similarity Subgroups Validation Method
 
 ## Introduction
 This tool is intended to find different surface error types. Unless traditional methods, it tries to find correlating subgroups of vertices, that show high accuracy (within this subgroup) and uses those for registration.

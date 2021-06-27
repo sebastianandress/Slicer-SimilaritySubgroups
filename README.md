@@ -3,7 +3,7 @@ All rights reserved. Please find the license [here](https://github.com/sebastian
 
 Please cite the corresponding paper when using this algorithm for publications:
 
-    @article{HighAccuracySurfaceZones,
+    @article{SimilaritySubgroups-Andress,
         author      = {Andreß, Sebastian and Achilles, Felix and Bischoff, Jonathan and Calvalcanti Kußmaul, Adrian and Böcker, Wolfgang and Weidert},
         title       = {A Method for Finding High Accuracy Surface Zones on 3D Printed Bone Models},
         journal     = {Computers in Biology and Medicine},

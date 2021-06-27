@@ -1,7 +1,7 @@
 **Copyright &copy; 2021, Sebastian Andreß**\
 All rights reserved. Please find the license [here](https://github.com/sebastianandress/Slicer-AffinityClusterRegistration/blob/master/LICENSE.md).
 
-Please cite the corresponding paper when using this filter for publications:
+Please cite the corresponding paper when using this algorithm for publications:
 
     @article{HighAccuracySurfaceZones,
         author      = {Andreß, Sebastian and Achilles, Felix and Bischoff, Jonathan and Calvalcanti Kußmaul, Adrian and Böcker, Wolfgang and Weidert},
@@ -26,11 +26,18 @@ The main purpose of this module is to find high accuracy surface zones (above a 
 
 ![Screenshot](/Resources/screenshot1.png)
 
+The algorithm can be divided into four sections:
+A optional pre-registration, B automatic search of an initialization subgroup and initial registration with it, C further cleaning of the subgroup, and D final registration and deviation calculation for this registration. It is an iterative process, till most vertices of the source model were assigned to a subgroup.
+
+Parameters mentioned in the diagram can also be set in the module.
+
+![Flowchart](/Resources/flowchart.png)
+
 ## Example
 
-![ExampleOutput](/Resources/example.png)
-
 Two boxes are compared with each other. Both are identical, but one is broken in the middle into two pieces. The algorithm recognizes this fact and registers both halves of the source box with the target box, thus creating a "Similarity Subgroup" for each half. For each subgroup considered as such, the deviation is zero.
+
+![ExampleOutput](/Resources/example.png)
 
 ## Description
 1. If you want to use the pre-registration, mark at least 3 landmarks (better >5) on both the source and target model in the same order.

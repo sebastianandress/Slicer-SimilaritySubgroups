@@ -28,7 +28,7 @@ The main purpose of this module is to find high accuracy surface zones (above a 
 
 ## Example
 
-![ExampleOutput](/Resources/output.pdf)
+![ExampleOutput](/Resources/example.png)
 
 Two boxes are compared with each other. Both are identical, but one is broken in the middle into two pieces. The algorithm recognizes this fact and registers both halves of the source box with the target box, thus creating a "Similarity Subgroup" for each half. For each subgroup considered as such, the deviation is zero.
 
